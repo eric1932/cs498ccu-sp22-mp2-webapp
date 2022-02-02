@@ -5,7 +5,7 @@ VENV_DIR_NAME="venv"
 if [[ ! -d ${VENV_DIR_NAME} ]]
 then
   echo "Initialize Python venv"
-  pip3 -m venv ${VENV_DIR_NAME}
+  python3 -m venv ${VENV_DIR_NAME}
 fi
 
 echo "Activate venv"
